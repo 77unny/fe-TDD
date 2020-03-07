@@ -5,6 +5,9 @@ app.clickCouner = () => {
     return {
         getValue() {
             return value;
+        },
+        increase() {
+            value++;
         }
     };
 };
