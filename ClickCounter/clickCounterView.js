@@ -1,7 +1,7 @@
-const clickCounterView = () => {
+const clickCounterView = (clickCounter, updateEl) => {
     return {
-        updateView(){
-            return 0
+        updateView() {
+            updateEl.innerHTML = clickCounter.getValue();
         }
-    }
-}
+    };
+};

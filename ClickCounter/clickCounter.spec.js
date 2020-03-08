@@ -1,7 +1,7 @@
 describe('clickCounter', () => {
     let content;
     beforeEach(() => {
-        content = app.clickCouner();
+        content = clickCounter();
     });
     describe('getVaule()', () => {
         it('초기값이 0인 카운터 반환', () => {
