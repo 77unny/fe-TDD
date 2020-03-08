@@ -1,6 +1,4 @@
-const app = {};
-
-app.clickCouner = () => {
+const clickCounter = () => {
     let value = 0;
     return {
         getValue() {
